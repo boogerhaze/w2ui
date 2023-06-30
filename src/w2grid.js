@@ -4343,9 +4343,12 @@
             var time = (new Date()).getTime();
             if (this.box == null) return 0;
             if (cells == null) {
-                for (var index = this.last.range_start - 1; index <= this.last.range_end - 1; index++) {
-                    if (index < 0) continue;
+                var getIndexFromSearchIds = this.last.searchIds.length > 0 ;
+                for (var idx = this.last.range_start - 1; idx <= this.last.range_end - 1; idx++) {
+                    if (idx < 0) continue;
+                    var index = getIndexFromSearchIds ? this.last.searchIds[idx] : idx
                     var rec = this.records[index] || {};
+
                     if (!rec.w2ui) rec.w2ui = {};
                     for (var column = 0; column < this.columns.length; column++) {
                         var row  = $(this.box).find('#grid_'+ this.name +'_rec_'+ w2utils.escapeId(rec.recid));
