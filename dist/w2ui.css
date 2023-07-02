@@ -2191,7 +2191,7 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-even,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-even {
   color: inherit;
-  background-color: #F3F6FA;
+  background-color: #f2f2f2;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-even:hover,
@@ -2209,13 +2209,103 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td.w2ui-selected,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td.w2ui-selected {
   color: black !important;
-  background-color: #B6D5FF !important;
+  background-color: #b3d1ff !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td.w2ui-inactive {
-  background-color: #D8DEE7 !important;
+  background-color: #b3d1ff !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd {
+  color: inherit;
+  background-color: #cbe3c3;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd.w2ui-record-hover {
+  color: inherit;
+  background-color: #a4d3a0;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd.w2ui-empty-record:hover {
+  background-color: white;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even {
+  color: inherit;
+  background-color: #bcdbb2;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even.w2ui-record-hover {
+  color: inherit;
+  background-color: #a4d3a0;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even.w2ui-empty-record:hover {
+  background-color: #F3F6FA;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green td.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green td.w2ui-selected {
+  color: black !important;
+  background-color: #7bcc74 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green td.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green td.w2ui-inactive {
+  background-color: #7bcc74 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd {
+  color: inherit;
+  background-color: #f7bdbd;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd.w2ui-record-hover {
+  color: inherit;
+  background-color: #f1a090;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd.w2ui-empty-record:hover {
+  background-color: white;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even {
+  color: inherit;
+  background-color: #f4a6a6;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even.w2ui-record-hover {
+  color: inherit;
+  background-color: #f1a090;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even.w2ui-empty-record:hover {
+  background-color: #F3F6FA;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red td.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red td.w2ui-selected {
+  color: black !important;
+  background-color: #f57359 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red td.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red td.w2ui-inactive {
+  background-color: #f57359 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records .w2ui-expanded1,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords .w2ui-expanded1 {

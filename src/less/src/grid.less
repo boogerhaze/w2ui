@@ -157,39 +157,74 @@
             top: 0px;
             bottom: 0px;
 
-            table {
-                tr {
-                    &.w2ui-odd {
-                        color: @grid-row-color;
-                        background-color: @grid-row-odd-background-color;
-                        &:hover, &.w2ui-record-hover {
-                            color: @grid-row-hover-color;
-                            background-color: @grid-row-hover-background-color;
-                        }
-                        &.w2ui-empty-record:hover {
-                            background-color: @grid-row-odd-background-color;
-                        }
-                    }
-                    &.w2ui-even {
-                        color: @grid-row-color;
-                        background-color: @grid-row-even-background-color;
-                        &:hover, &.w2ui-record-hover {
-                            color: @grid-row-hover-color;
-                            background-color: @grid-row-hover-background-color;
-                        }
-                        &.w2ui-empty-record:hover {
-                            background-color: @grid-row-even-background-color;
-                        }
-                    }
-                    &.w2ui-selected, td.w2ui-selected {
-                        color: @grid-row-selected-color !important;
-                        background-color: @grid-row-selected-background-color !important;
-                    }
-                    &.w2ui-inactive, td.w2ui-inactive {
-                        background-color: @grid-row-inactive-background-color !important;
-                    }
-                }
+
+          //// -----
+          @tr-styles: {
+            &.w2ui-odd {
+              color: @grid-row-color;
+              background-color: @base-background-color;
+
+              &:hover, &.w2ui-record-hover {
+                color: @grid-row-hover-color;
+                background-color: @hover-background-color;
+              }
+
+              &.w2ui-empty-record:hover {
+                background-color: @grid-row-odd-background-color;
+              }
             }
+
+            &.w2ui-even {
+              color: @grid-row-color;
+              background-color: @even-background-color;
+
+              &:hover, &.w2ui-record-hover {
+                color: @grid-row-hover-color;
+                background-color: @hover-background-color;
+              }
+
+              &.w2ui-empty-record:hover {
+                background-color: @grid-row-even-background-color;
+              }
+            }
+
+            &.w2ui-selected, td.w2ui-selected {
+              color: @grid-row-selected-color !important;
+              background-color: @selected-background-color !important;
+            }
+            &.w2ui-inactive, td.w2ui-inactive {
+              background-color: @inactive-background-color !important;
+            }
+
+            @even-background-color: darken(@base-background-color, 5%);
+            @selected-background-color: darken(saturate(@hover-background-color, 10%), 10%);
+            @inactive-background-color: @selected-background-color;
+          }
+
+          table {
+            tr {
+              @tr-styles();
+              @base-background-color: @grid-row-odd-background-color;
+              @hover-background-color: @grid-row-hover-background-color;
+            }
+          }
+
+          table {
+            tr {
+              &.green {
+                @tr-styles();
+                @base-background-color: #cbe3c3;
+                @hover-background-color: darken(spin(@base-background-color, 10), 10%);
+              }
+
+              &.red {
+                @tr-styles();
+                @base-background-color: #f7bdbd;
+                @hover-background-color: darken(spin(@base-background-color, 10), 10%);
+              }
+            }
+          }
+          //// ----
 
             .w2ui-expanded {
             }
