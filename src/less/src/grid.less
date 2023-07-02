@@ -196,8 +196,8 @@
               background-color: @inactive-background-color !important;
             }
 
-            @even-background-color: darken(@base-background-color, 5%);
-            @selected-background-color: darken(saturate(@hover-background-color, 10%), 10%);
+            @even-background-color: darken(@base-background-color, 3%);
+            @selected-background-color: darken(saturate(@hover-background-color, 10%), 5%);
             @inactive-background-color: @selected-background-color;
           }
 
@@ -214,13 +214,25 @@
               &.green {
                 @tr-styles();
                 @base-background-color: #cbe3c3;
-                @hover-background-color: darken(spin(@base-background-color, 10), 10%);
+                @hover-background-color: darken(spin(@base-background-color, 10), 5%);
               }
 
               &.red {
                 @tr-styles();
-                @base-background-color: #f7bdbd;
-                @hover-background-color: darken(spin(@base-background-color, 10), 10%);
+                @base-background-color: #ed9a9a;
+                @hover-background-color: darken(spin(@base-background-color, 10), 5%);
+              }
+
+              &.blue {
+                @tr-styles();
+                @base-background-color: #cbcbf6;
+                @hover-background-color: darken(spin(@base-background-color, 10), 5%);
+              }
+
+              &.yellow {
+                @tr-styles();
+                @base-background-color: #f4f7bd;
+                @hover-background-color: darken(spin(@base-background-color, 10), 5%);
               }
             }
           }

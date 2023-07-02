@@ -2205,7 +2205,7 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-even,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-even {
   color: #C0C8D5;
-  background-color: #485573;
+  background-color: #4c597a;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-even:hover,
@@ -2223,13 +2223,13 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td.w2ui-selected,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td.w2ui-selected {
   color: #eee !important;
-  background-color: #1e2742 !important;
+  background-color: #273153 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr td.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr td.w2ui-inactive {
-  background-color: #1e2742 !important;
+  background-color: #273153 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd {
@@ -2241,7 +2241,7 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd.w2ui-record-hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd.w2ui-record-hover {
   color: #DAE4F8;
-  background-color: #a4d3a0;
+  background-color: #b5dbb2;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-odd.w2ui-empty-record:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-odd.w2ui-empty-record:hover {
@@ -2250,14 +2250,14 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even {
   color: #C0C8D5;
-  background-color: #bcdbb2;
+  background-color: #c2deb9;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even.w2ui-record-hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even.w2ui-record-hover {
   color: #DAE4F8;
-  background-color: #a4d3a0;
+  background-color: #b5dbb2;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-even.w2ui-empty-record:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-even.w2ui-empty-record:hover {
@@ -2268,25 +2268,25 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green td.w2ui-selected,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green td.w2ui-selected {
   color: #eee !important;
-  background-color: #7bcc74 !important;
+  background-color: #9fda99 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.green td.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.green td.w2ui-inactive {
-  background-color: #7bcc74 !important;
+  background-color: #9fda99 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd {
   color: #C0C8D5;
-  background-color: #f7bdbd;
+  background-color: #ed9a9a;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd.w2ui-record-hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd.w2ui-record-hover {
   color: #DAE4F8;
-  background-color: #f1a090;
+  background-color: #e99584;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-odd.w2ui-empty-record:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-odd.w2ui-empty-record:hover {
@@ -2295,14 +2295,14 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even {
   color: #C0C8D5;
-  background-color: #f4a6a6;
+  background-color: #eb8d8d;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even.w2ui-record-hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even.w2ui-record-hover {
   color: #DAE4F8;
-  background-color: #f1a090;
+  background-color: #e99584;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-even.w2ui-empty-record:hover,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-even.w2ui-empty-record:hover {
@@ -2313,13 +2313,103 @@ button.w2ui-btn-small:focus:before {
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red td.w2ui-selected,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red td.w2ui-selected {
   color: #eee !important;
-  background-color: #f57359 !important;
+  background-color: #ee7d66 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.red td.w2ui-inactive,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.red td.w2ui-inactive {
-  background-color: #f57359 !important;
+  background-color: #ee7d66 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-odd,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-odd {
+  color: #C0C8D5;
+  background-color: #cbcbf6;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-odd.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-odd.w2ui-record-hover {
+  color: #DAE4F8;
+  background-color: #bfb5f2;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-odd.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-odd.w2ui-empty-record:hover {
+  background-color: #526083;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-even,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-even {
+  color: #C0C8D5;
+  background-color: #bebef4;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-even.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-even.w2ui-record-hover {
+  color: #DAE4F8;
+  background-color: #bfb5f2;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-even.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-even.w2ui-empty-record:hover {
+  background-color: #495474;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue td.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue td.w2ui-selected {
+  color: #eee !important;
+  background-color: #a99af4 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.blue td.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.blue td.w2ui-inactive {
+  background-color: #a99af4 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-odd,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-odd {
+  color: #C0C8D5;
+  background-color: #f4f7bd;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-odd:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-odd.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-odd.w2ui-record-hover {
+  color: #DAE4F8;
+  background-color: #e3f4a6;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-odd.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-odd.w2ui-empty-record:hover {
+  background-color: #526083;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-even,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-even {
+  color: #C0C8D5;
+  background-color: #f2f5af;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-even:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-even.w2ui-record-hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-even.w2ui-record-hover {
+  color: #DAE4F8;
+  background-color: #e3f4a6;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-even.w2ui-empty-record:hover,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-even.w2ui-empty-record:hover {
+  background-color: #495474;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow td.w2ui-selected,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow td.w2ui-selected {
+  color: #eee !important;
+  background-color: #e0f889 !important;
+}
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-records table tr.yellow td.w2ui-inactive,
+.w2ui-grid .w2ui-grid-body .w2ui-grid-frecords table tr.yellow td.w2ui-inactive {
+  background-color: #e0f889 !important;
 }
 .w2ui-grid .w2ui-grid-body .w2ui-grid-records .w2ui-expanded1,
 .w2ui-grid .w2ui-grid-body .w2ui-grid-frecords .w2ui-expanded1 {
